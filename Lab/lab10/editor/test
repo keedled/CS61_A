@@ -1,0 +1,4 @@
+plus = lambda x:lambda y:x + y
+pluss = plus(5)
+print(pluss(6))
+print(pluss(7))
